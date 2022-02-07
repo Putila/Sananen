@@ -1,0 +1,36 @@
+body{
+    font-family: 'Sora';
+    background-color: #FFFDD0;
+}
+.header{
+    text-align: center;
+}
+.row{
+    text-align: center;
+}
+.tile{
+    background-color: rgb(255, 255, 255);
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    margin: 2px;
+    text-transform: uppercase;
+    text-align: center;
+    font-size:100px;
+    border-radius: 10%;
+}
+#temp{
+    text-align: center;
+    margin-top: 100px;
+}
+#button{
+    height: 50px;
+    width: 100px;
+    font-size: 20px;
+}
+#warning{
+    color: red;
+}
+#victory{
+    color: green;
+}

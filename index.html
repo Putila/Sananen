@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styles.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Sora:wght@800&family=Varela+Round&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="header">
+            <h1>Sananen</h1>
+        </div>
+        <div class="gamearea">
+           <div class="row" id="row1">
+
+            <input type='text' name='letter1' class='tile' maxlength='1'> 
+            <input type='text' name='letter2' class='tile' maxlength='1'>
+            <input type='text' name='letter3' class='tile' maxlength='1'>
+            <input type='text' name='letter4' class='tile' maxlength='1'>
+            <input type='text' name='letter5' class='tile' maxlength='1'>
+             </div>
+               
+             <div class="row" id="row2">
+                <input disabled type='text' name='letter6' class='tile' maxlength='1'> 
+                <input disabled type='text' name='letter7' class='tile' maxlength='1'>
+                <input disabled type='text' name='letter8' class='tile' maxlength='1'>
+                <input disabled type='text' name='letter9' class='tile' maxlength='1'>
+                <input disabled type='text' name='letter10' class='tile' maxlength='1'>
+            </div>
+
+            <div class="row" id="row3">
+                <input disabled type='text' name='letter11' class='tile' maxlength='1'> 
+                <input disabled type='text' name='letter12' class='tile' maxlength='1'>
+                <input disabled type='text' name='letter13' class='tile' maxlength='1'>
+                <input disabled type='text' name='letter14' class='tile' maxlength='1'>
+                <input disabled type='text' name='letter15' class='tile' maxlength='1'>
+        </div>
+        <div class="row" id="row4">
+            <input disabled type='text' name='letter16'  class='tile' maxlength='1'> 
+            <input disabled type='text' name='letter17'  class='tile' maxlength='1'>
+            <input disabled type='text' name='letter18'  class='tile' maxlength='1'>
+            <input disabled type='text' name='letter19'  class='tile' maxlength='1'>
+            <input disabled type='text' name='letter20' class='tile' maxlength='1'>
+        </div>
+        <div class="row" id="row5">
+            <input disabled type='text' name='letter21' class='tile' maxlength='1'> 
+            <input disabled type='text' name='letter22' class='tile' maxlength='1'>
+            <input disabled type='text' name='letter23' class='tile' maxlength='1'>
+            <input disabled type='text' name='letter24' class='tile' maxlength='1'>
+            <input disabled type='text' name='letter25' class='tile' maxlength='1'>
+        </div>
+        <div class="row" id="row6">
+            <input disabled type='text' name='letter26' ' class='tile' maxlength='1'> 
+            <input disabled type='text' name='letter27' ' class='tile' maxlength='1'>
+            <input disabled type='text' name='letter28' ' class='tile' maxlength='1'>
+            <input disabled type='text' name='letter29' ' class='tile' maxlength='1'>
+            <input disabled type='text' name='letter30'' class='tile' maxlength='1'>
+        </div>
+
+        </div>
+
+        <div id="temp">
+            <p id="warning"></p>
+            <button id="button" onclick="checkWord()">submit</button>
+            <p id="victory"></p>
+        </div>
+        
+        <script src="sananen.js" async defer></script>
+    </body>
+</html>
