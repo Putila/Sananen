@@ -61,20 +61,37 @@ function getWord(){
 //check if player's guess is correct
 function testAnswer(guess, solution) {
     let result = new Array(0);
-    //iterate over guess and mark the correct letters colors
+    //iterate over guess and mark the green colors
     for( let i = 0; i < guess.length; i++ ){
         let guessLetter = guess[i];
         let solutionLetter = solution[i];
         if (guessLetter === solutionLetter){
             result.push("green");
         }
-        //checking if letter exists in solution
-        else if (solution.indexOf(guessLetter) != -1){
-            result.push("yellow");
-        }
         else {
             result.push("grey");
         }
+        
+    }
+    //iterate again and mark the other colors
+    for( let i = 0; i < guess.length; i++ ){
+        let guessLetter = guess[i];
+        let solutionLetter = solution[i];
+        console.log(result)
+        //checking if letter exists in solution
+        if (solution.indexOf(guessLetter) != -1){
+            if(guessletter === solutionLetter){
+
+            }
+            //TODO: fix this shite
+            else if()
+
+
+            result = result.splice(i, 1, "yellow");
+            
+        }
+
+
     }
     return result;
 }
